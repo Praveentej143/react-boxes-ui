@@ -1,0 +1,61 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+}
+.heading {
+  color: #0f172a;
+  text-align: center;
+}
+.smallBox {
+  background-color: #fbbf24;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+  margin-right: 10px;
+}
+.mediumBox {
+  background-color: #38bdf8;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+  margin-right: 10px;
+}
+.largeBox {
+  background-color: #ec4899;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+}
+
+.text {
+  color: #ffffff;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+.box {
+  margin: 10px;
+}
+@media screen and (max-width: 767px) {
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
